@@ -7,18 +7,18 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
+    "name": "John Roberts",
     "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "about": "Chief Justice since 2005. (R)",
   };
 
 
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
+        "name": "John Roberts",
         "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "about": "Chief Justice - 2005 (R) John Roberts went to a school in the district of manitoba and lorem"
       },
       {
         "name": "Charlie Cheetah",
