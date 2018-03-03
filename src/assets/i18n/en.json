@@ -8,9 +8,10 @@
   "LOGIN": "Sign in",
   "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "SCOTUS",
+  "TAB1_TITLE": "Justices",
   "TAB2_TITLE": "Timeline",
   "TAB3_TITLE": "Arguments",
+  "TAB4_TITLE": "Resources",
 
   "MAP_TITLE": "Map",
 
@@ -20,13 +21,13 @@
   "TUTORIAL_SLIDE1_TITLE": "Welcome to the Court!",
   "TUTORIAL_SLIDE1_DESCRIPTION": "The Supreme Court Of The United States, otherwise know as SCOTUS, is one of the three main branches of our government.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Peek behind the gavel.",
+  "TUTORIAL_SLIDE2_TITLE": "Go Behind the Gavel.",
   "TUTORIAL_SLIDE2_DESCRIPTION": "Quickly learn about all the sitting and retired Supreme Court Justices and then go back in time with the interactive timeline navigator!",
 
-  "TUTORIAL_SLIDE3_TITLE": "Tip the scales of justice.",
+  "TUTORIAL_SLIDE3_TITLE": "See the Scales of Justice.",
   "TUTORIAL_SLIDE3_DESCRIPTION": "Listen to recordings of key arguments fought before SCOTUS and then decide for yourself if you agree with these important rulings.",
 
-  "TUTORIAL_SLIDE4_TITLE": "Become a better citizen?",
+  "TUTORIAL_SLIDE4_TITLE": "Be a Better Citizen?",
 
   "WELCOME_INTRO": "The starting point for your next great Ionic app",
 
