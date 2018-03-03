@@ -3,6 +3,9 @@ import { IonicPage, MenuController, NavController, Platform } from 'ionic-angula
 
 import { TranslateService } from '@ngx-translate/core';
 
+import { MainPage } from '../pages';
+
+
 export interface Slide {
   title: string;
   description: string;
@@ -51,11 +54,20 @@ export class TutorialPage {
   }
 
   startApp() {
-    this.navCtrl.setRoot('WelcomePage', {}, {
+    this.navCtrl.setRoot('TabsPage', {}, {
       animate: true,
       direction: 'forward'
     });
   }
+  // startApp1() {
+  //   this.navCtrl.setRoot('MainPage', {}, {
+  //     animate: true,
+  //     direction: 'forward'
+  //   });
+  //   this.navCtrl.push(ListMasterPage);
+  // }
+  
+  // this.navCtrl.push(MainPage);
 
   onSlideChangeStart(slider) {
     this.showSkip = !slider.isEnd();
