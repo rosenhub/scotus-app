@@ -8,7 +8,7 @@ export class Items {
 
   defaultItem: any = {
     "name": "John Roberts",
-    "profilePic": "assets/img/speakers/bear.jpg",
+    "profilePic": "assets/img/justices/john_roberts.jpg",
     "about": "Chief Justice since 2005. (R)",
   };
 
@@ -17,37 +17,62 @@ export class Items {
     let items = [
       {
         "name": "John Roberts",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "profilePic": "assets/img/justices/john_roberts.jpg",
         "about": "Chief Justice - 2005 (R) John Roberts went to a school in the district of manitoba and lorem"
       },
       {
-        "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
+        "name": "Anthony Kennedy",
+        "profilePic": "assets/img/justices/anthony_kennedy.jpg",
         "about": "Charlie is a Cheetah."
       },
       {
-        "name": "Donald Duck",
-        "profilePic": "assets/img/speakers/duck.jpg",
+        "name": "Clarence Thomas",
+        "profilePic": "assets/img/justices/clarence_thomas.jpg",
         "about": "Donald is a Duck."
       },
       {
-        "name": "Eva Eagle",
-        "profilePic": "assets/img/speakers/eagle.jpg",
+        "name": "Ruth Bader Ginsburg",
+        "profilePic": "assets/img/justices/ruth_bader_ginsburg.jpg",
         "about": "Eva is an Eagle."
       },
       {
-        "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
+        "name": "Stephen Bryer",
+        "profilePic": "assets/img/justices/stephen_bryer.jpg",
         "about": "Ellie is an Elephant."
       },
       {
-        "name": "Molly Mouse",
-        "profilePic": "assets/img/speakers/mouse.jpg",
+        "name": "Samuel Alito",
+        "profilePic": "assets/img/justices/samuel_alito.jpg",
         "about": "Molly is a Mouse."
       },
       {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
+        "name": "Sonia Sotomayor",
+        "profilePic": "assets/img/justices/sonia_sotomayor.jpg",
+        "about": "Paul is a Puppy."
+      },
+      {
+        "name": "Elena Kagan",
+        "profilePic": "assets/img/justices/elena_kagan.jpg",
+        "about": "Paul is a Puppy."
+      },
+      {
+        "name": "Neil Gorsuch",
+        "profilePic": "assets/img/justices/neil_gorsuch.jpg",
+        "about": "Paul is a Puppy."
+      },
+      {
+        "name": "John Paul Stevens (Retired)",
+        "profilePic": "assets/img/justices/john_paul_stevens.jpg",
+        "about": "Paul is a Puppy."
+      },
+      {
+        "name": "Sandra Day O'Connor (Retired)",
+        "profilePic": "assets/img/justices/sandra_day_oconnor.jpg",
+        "about": "Paul is a Puppy."
+      },
+      {
+        "name": "David Souter (Retired)",
+        "profilePic": "assets/img/justices/david_souter.jpg",
         "about": "Paul is a Puppy."
       }
     ];

@@ -43,6 +43,11 @@ export class ListMasterPage {
     this.items.delete(item);
   }
 
+  nothing() {
+    alert('Menu here...');
+  }
+
+
   /**
    * Navigate to the detail page for this item.
    */
