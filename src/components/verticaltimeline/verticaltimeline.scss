@@ -1,0 +1,124 @@
+verticaltimeline {
+    /* comparison timeline icons*/
+
+    .match-icon{
+        font-size: 24px;
+        padding-left: 8px;
+    }
+
+    .timeline-right > .ion-ios-star-outline{
+        color: #ffb600 !important;
+    }
+
+    .timeline-right h5, .match-icon{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+    /* COMKPARISON TIMELINE*/
+
+    .timeline-container:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background: #194c8a;
+        margin-right: 50%;
+        margin-left: 50%;
+        z-index: 1;
+    }
+
+    .timeline-container{
+        position: relative;
+    }
+
+
+
+    .timeline-row, .timeline-header-row{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .timeline-header-row{
+        margin-bottom: 4%;
+        text-align: center;
+    }
+
+
+    .timeline-row{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        display: flex;
+        justify-content: space-between;
+        align-items : center;
+    }
+
+    .timeline-left, .timeline-right, .timeline-icon{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 2%;
+    }
+
+    .timeline-left, .timeline-right{
+        width: 38%;
+    }
+
+
+    .timeline-icon {
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+        background-color: white;
+        font-size: 24px;
+        padding-left: 13px;
+    }
+
+    .timeline-icon-border {
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+        background-color: white;
+        font-size: 24px;
+        padding-left: 12px;
+        padding-top: 11px;
+        border-radius: 500px;
+        // border: 1px solid #5db260; 
+        border: 1px solid #194c8a; 
+    }
+
+    /*timeline border variations*/
+
+    .timeline-border{
+        position: relative;
+        //border: 1px solid #5db260;
+        border: 1px solid #194c8a;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .timeline-title{
+        font-weight: 500;
+        font-size: 3.4vw;
+        margin-bottom: 4%;
+    }
+
+    .timeline-content{
+        font-size: 12px;
+        font-size: 3vw;
+        margin-bottom: 2%;
+    }
+
+    .timeline-content-time{
+        font-size: 3.2vw;
+    }
+
+    hr.cus-line{
+        width: 0px;
+        height: 20px;
+        color: #ceced2;
+        background-color: #ceced2;
+    }
+}
