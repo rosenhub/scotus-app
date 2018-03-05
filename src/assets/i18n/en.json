@@ -8,10 +8,10 @@
   "LOGIN": "Sign in",
   "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "HOME",
-  "TAB2_TITLE": "SCOTUS",
-  "TAB3_TITLE": "TIMELINE",
-  "TAB4_TITLE": "RESOURCES",
+  "TAB1_TITLE": "SCOTUS",
+  "TAB2_TITLE": "TIMELINE",
+  "TAB3_TITLE": "ABOUT",
+  "TAB4_TITLE": "MORE",
 
   "MAP_TITLE": "Map",
 
@@ -19,13 +19,13 @@
   "TUTORIAL_CONTINUE_BUTTON": "Let's Go",
 
   "TUTORIAL_SLIDE1_TITLE": "Welcome to the Court!",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "The Supreme Court Of The United States, otherwise know as SCOTUS, is one of the three main branches of our government.",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>The Supreme Court Of The United States</b><br>is also known as SCOTUS worldwide.",
 
   "TUTORIAL_SLIDE2_TITLE": "Go behind the gavel.",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Quickly learn about all the sitting and retired Supreme Court Justices and then go back in time with the interactive timeline navigator!",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Quickly learn about all the sitting and retired<br>Supreme Court Justices with just a swipe.",
 
   "TUTORIAL_SLIDE3_TITLE": "See justice at work.",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Listen to recordings of key arguments fought before SCOTUS and then decide for yourself if you agree with these important rulings.",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "A interactive timeline will get you up to speed<br>with SCOTUS back to its founding in 1790.",
 
   "TUTORIAL_SLIDE4_TITLE": "Be a better citizen.",
 
@@ -50,7 +50,7 @@
   "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
   "SIGNUP_BUTTON": "Sign up",
 
-  "LIST_MASTER_TITLE": "Meet SCOTUS",
+  "LIST_MASTER_TITLE": "MEET SCOTUS",
 
   "ITEM_CREATE_TITLE": "New Item",
   "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
