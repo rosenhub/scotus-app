@@ -1,3 +1,74 @@
 page-timeline {
+    verticaltimeline .timeline-icon {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    background-color: #fff !important;
+    font-size: 24px;
+    border-radius: 500px;
+    padding-left: 12px;
+    padding-top: 12px;
+    border: 0px solid #343434;
+    box-shadow: 0px 0px 2px 1px #ccc;
+    color: #343434;
+    
+    }
 
+    verticaltimeline .timeline-border {
+    position: relative;
+    border: 0px solid #343434;
+    background-color: #f4f4f4 !important;
+    z-index: 2;
+    box-shadow: 0px 0px 2px 1px #ccc;
+    // box-shadow: 2px 2px 2px 1px #ccc;
+    }
+
+    verticaltimeline .timeline-icon-border {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    background-color: #fff !important;
+    font-size: 24px;
+    padding-left: 12px;
+    padding-top: 11px;
+    border-radius: 500px;
+    border: 1px solid #343434;
+    box-shadow: 0px 0px 2px 0px #ccc;
+    color: #343434;
+    }
+
+    verticaltimeline .timeline-icon-border {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    background-color: white;
+    font-size: 24px;
+    padding-left: 12px;
+    padding-top: 11px;
+    border-radius: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 2px 0px #ccc;
+    }
+
+    verticaltimeline .timeline-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #343434;
+    margin-right: 50%;
+    margin-left: 50%;
+    z-index: 1;
+    }
+
+    .fa-balance-scale {
+    padding-left: 10px !important;
+    }
+    .fa-users {
+    padding-left: 10px !important;
+    }
+    .fa-gavel {
+    padding-left: 13px !important;
+    }
 }
