@@ -6,6 +6,6 @@ import { Settings } from './settings/settings';
 export {
     Api,
     Items,
-    Settings,
+    Settings
     // User
 };

@@ -55,7 +55,16 @@ launchInterstitial() {
  } 
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AboutPage');
+    let interstitialConfig: AdMobFreeInterstitialConfig = {
+      // isTesting: true, // Remove in production
+      autoShow: true,
+      id: 'ca-app-pub-6494883128831450/1590258392'
+  };
+  this.admob.interstitial.config(interstitialConfig);
+
+  this.admob.interstitial.prepare().then(() => {
+      // success
+    }); 
   }
 
 }
