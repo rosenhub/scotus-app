@@ -4,16 +4,16 @@
     <div class="timeline-left">
       <div *ngIf="timeData[key].left != null">
           <p class="timeline-title">{{timeData[key].left.title}}</p>
-          <p class="timeline-content">{{timeData[key].left.content}}</p>
           <p class="timeline-content-time">{{timeData[key].left.date}}</p>
+          <p class="timeline-content">{{timeData[key].left.content}}</p>
       </div>
     </div>
     <i [ngClass]="{true: 'timeline-icon fa fa-' + timeData[key].icon, false:'timeline-icon-border fa fa-' + timeData[key].icon}[timeData[key].border]" aria-hidden="true"></i>
     <div class="timeline-right">
       <div *ngIf="timeData[key].right != null">
           <p class="timeline-title">{{timeData[key].right.title}}</p>
-          <p class="timeline-content">{{timeData[key].right.content}}</p>
           <p class="timeline-content-time">{{timeData[key].right.date}}</p>
+          <p class="timeline-content">{{timeData[key].right.content}}</p>
       </div>
     </div>
   </div>

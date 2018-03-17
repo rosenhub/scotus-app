@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import  { VerticalTimeLine } from '../../components/verticaltimeline/verticaltimeline';
+// import  { VerticalTimeLine } from '../../components/verticaltimeline/verticaltimeline';
 
 /**
  * Generated class for the LandmarksPage page.
@@ -21,22 +21,31 @@ export class TimelinePage {
       border: false,
       icon: 'university',
       left: {
-        date: '1451',
-        title: 'Iroquois',
-        content: 'The Iroquois Confederacy is formed'
+        date: '`1790`',
+        title: 'SCOTUS Founded',
+        content: 'The Supreme Court Of The United States was founded by Congress under Article III of the US Constitution.'
+      }
+    },
+    {
+      border: false,
+      icon: 'user',
+      left: {
+        date: '1790',
+        title: 'Justice John Jay',
+        content: 'President George Washington appoints John Jay as the first Justice.'
       }
     },
     {
       border: true,
-      icon: 'gavel',
+      icon: 'balance-scale',
       left: {
-        date: '1812',
-        title: 'War',
-        content: 'US invades Canada'
+        date: '1803',
+        title: 'Marbury',
+        content: 'President George Washington appoints John Jay as the first Justice.'
       },
       right: {
         date: '1814',
-        title: 'Victory',
+        title: 'Madison',
         content: 'Canada defeats the US.'
       }
     },
@@ -74,7 +83,7 @@ export class TimelinePage {
     },
     {
       border: true,
-      icon: 'users',
+      icon: 'gavel',
       left: {
         date: '1812',
         title: 'War',
