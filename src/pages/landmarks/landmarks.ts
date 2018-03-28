@@ -24,7 +24,7 @@ export class LandmarksPage {
       icon: 'university',
       left: {
         date: '1789',
-        title: 'Founded',
+        title: 'FOUNDED',
         content: 'The Supreme Court Of The United States was founded by Congress under Article III of the US Constitution.'
       }
     },
@@ -33,7 +33,7 @@ export class LandmarksPage {
       icon: 'user',
       right: {
         date: '1789',
-        title: 'Appointed',
+        title: 'APPOINTED',
         content: 'President George Washington appoints John Jay as the first Justice of the Supreme Court.'
       }
     },

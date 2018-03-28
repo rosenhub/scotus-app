@@ -22,10 +22,41 @@ border-color: red !important;
 // .item-ios {
 //     height: 88px !important;
 // }
+
+.item-ios {
+    color: #488aff;
+}
    .item-ios img {
     width:66px !important;
     height:66px !important;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(156,156,156,1);
+-moz-box-shadow: 2px 2px 4px 0px rgba(156,156,156,1);
+box-shadow: 2px 2px 4px 0px rgba(156,156,156,1);
    }
+
+  .list {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    border-color: red !important;
+    } 
+
+    .list .item {
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-bottom: 0px !important;
+        border-color: red !important;
+    } 
+    .ion .list {
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-bottom: 0px !important;
+        border-color: red !important;
+        } 
+    
 
 
 

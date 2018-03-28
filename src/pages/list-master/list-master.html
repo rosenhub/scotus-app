@@ -14,15 +14,16 @@
 
 <ion-content>
   <br>
-  <ion-list class="item-borderless">
-    <ion-item-sliding *ngFor="let item of currentItems" class="item-borderless">
-      <button ion-item (click)="openItem(item)" class="item-borderless">
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of currentItems">
+      <button ion-item (click)="openItem(item)">
         <ion-avatar item-start>
           <img [src]="item.profilePic" />
         </ion-avatar>
-        <h2>{{item.name}}</h2>
-        <p>{{item.about}}</p>
-        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+        <h2><strong>{{item.name}}</strong></h2>
+        <p style="color:black !important;"><strong>{{item.title}}</strong></p>
+        <p style="color:black !important;"><small>President {{item.appointed}} @ {{item.year}}</small></p>
+        <!-- <ioitn-note item-end *ngIf="item.note">{{item.note}}</ioitn-note> -->
       </button>
 
       <!-- <ion-item-options>

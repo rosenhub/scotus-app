@@ -11,8 +11,10 @@
   <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
   </div>
 
-  <div class="item-detail" padding>
-    <h2>{{item.name}}</h2>
-    <p>{{item.about}}</p>
+  <div class="item-detail" padding style="padding:24px">
+    <h1 style="color:#488aff"><strong>{{item.name}}</strong></h1>
+    <h3 style="color:#666666">{{item.title}}</h3>
+    <p><strong>Appointed by {{item.appointed}} in {{item.year}}</strong></p>
+    <p style="text-align: justify; font-size:14px;">{{item.about}}</p>
   </div>
 </ion-content>
