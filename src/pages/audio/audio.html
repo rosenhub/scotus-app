@@ -15,17 +15,26 @@
       <ion-avatar item-start>
         <img [src]="item.user.avatar">
       </ion-avatar>
-      <h2>{{item.user.name}}</h2>
+      <h2>{{item.title}}</h2>
       <p>{{item.date}}</p>
     </ion-item>
 
     <img [src]="item.image">
 
     <ion-card-content>
+      <p><audio controls>
+        <source src="{{item.audio}}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </p>
+    <ion-row>
+   
       <p>{{item.content}}</p>
+
+  </ion-row>
     </ion-card-content>
 
-    <ion-row>
+    <!-- <ion-row>
       <ion-col>
         <button ion-button color="primary" clear small icon-start>
             <ion-icon name='thumbs-up'></ion-icon>
@@ -43,6 +52,6 @@
           11h ago
         </ion-note>
       </ion-col>
-    </ion-row>
+    </ion-row> -->
   </ion-card>
 </ion-content>
