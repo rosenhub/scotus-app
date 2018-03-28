@@ -13,10 +13,10 @@
 </ion-header>
 
 <ion-content>
-
-  <ion-list>
-    <ion-item-sliding *ngFor="let item of currentItems">
-      <button ion-item (click)="openItem(item)">
+  <br>
+  <ion-list class="item-borderless">
+    <ion-item-sliding *ngFor="let item of currentItems" class="item-borderless">
+      <button ion-item (click)="openItem(item)" class="item-borderless">
         <ion-avatar item-start>
           <img [src]="item.profilePic" />
         </ion-avatar>

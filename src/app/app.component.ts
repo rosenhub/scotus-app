@@ -23,6 +23,7 @@ export class MyApp {
     { title: 'Timeline', component: 'TimelinePage' },
     { title: 'Landmarks', component: 'LandmarksPage' },
     { title: 'Cards', component: 'CardsPage' },
+    { title: 'Audio', component: 'CardsPage' },
     { title: 'Content', component: 'ContentPage' },
     // { title: 'Login', component: 'LoginPage' },
     // { title: 'Signup', component: 'SignupPage' },
