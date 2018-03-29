@@ -1,14 +1,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>AUDIO FILES</ion-title>
+    <ion-title>ORAL ARGUMENTS</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content>
-
+<ion-content padding>
+    <ion-card>
+      <ion-card-content>
+        <p style="font-weight:normal;color:#666;">SCOTUS began audio recording of oral arguments in 1955. They're maintained at The National Archives and Records Admin. in Washington, DC. as well as online.<br><br>Here are a few recent arguments of note...<br></p>
+      </ion-card-content>
+    </ion-card>
+  
   <ion-card *ngFor="let item of cardItems">
 
     <ion-item>
@@ -19,7 +24,7 @@
       <p>{{item.date}}</p>
     </ion-item>
 
-    <img [src]="item.image">
+    <!-- <img [src]="item.image"> -->
 
     <ion-card-content>
       <p><audio controls>
@@ -27,11 +32,11 @@
         Your browser does not support the audio element.
       </audio>
     </p>
-    <ion-row>
+    <!-- <ion-row>
    
       <p>{{item.content}}</p>
 
-  </ion-row>
+  </ion-row> -->
     </ion-card-content>
 
     <!-- <ion-row>

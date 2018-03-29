@@ -57,51 +57,51 @@ export class ListMasterPage {
     });
   }
 
-  showBanner() {
+//   showBanner() {
 
-    let bannerConfig: AdMobFreeBannerConfig = {
-        // isTesting: no, // Remove in production
-        autoShow: true,
-        overlap: false,
-        bannerAtTop: true,
-        offsetTopBar: true,
-        id: 'ca-app-pub-6494883128831450/1590258392'
-    };
+//     let bannerConfig: AdMobFreeBannerConfig = {
+//         // isTesting: no, // Remove in production
+//         autoShow: true,
+//         overlap: false,
+//         bannerAtTop: true,
+//         offsetTopBar: true,
+//         id: 'ca-app-pub-6494883128831450/1590258392'
+//     };
 
-    this.admob.banner.config(bannerConfig);
+//     this.admob.banner.config(bannerConfig);
 
-    this.admob.banner.prepare().then(() => {
-     this.admob.banner.show()
-        // success
-    }).catch(e => console.log(e));
+//     this.admob.banner.prepare().then(() => {
+//      this.admob.banner.show()
+//         // success
+//     }).catch(e => console.log(e));
 
-}
+// }
 
-launchInterstitial() {
+// launchInterstitial() {
 
-    let interstitialConfig: AdMobFreeInterstitialConfig = {
-        // isTesting: true, // Remove in production
-        autoShow: true,
-        id: 'ca-app-pub-6494883128831450/1590258392'
-    };
+//     let interstitialConfig: AdMobFreeInterstitialConfig = {
+//         // isTesting: true, // Remove in production
+//         autoShow: true,
+//         id: 'ca-app-pub-6494883128831450/1590258392'
+//     };
 
-    this.admob.interstitial.config(interstitialConfig);
+//     this.admob.interstitial.config(interstitialConfig);
 
-    this.admob.interstitial.prepare().then(() => {
-        // success
-      }); 
- } 
+//     this.admob.interstitial.prepare().then(() => {
+//         // success
+//       }); 
+//  } 
 
-  ionViewDidLoad() {
-    let interstitialConfig: AdMobFreeInterstitialConfig = {
-      // isTesting: true, // Remove in production
-      autoShow: true,
-      id: 'ca-app-pub-6494883128831450/1590258392'
-  };
-  this.admob.interstitial.config(interstitialConfig);
+//   ionViewDidLoad() {
+//     let interstitialConfig: AdMobFreeInterstitialConfig = {
+//       // isTesting: true, // Remove in production
+//       autoShow: true,
+//       id: 'ca-app-pub-6494883128831450/1590258392'
+//   };
+//   this.admob.interstitial.config(interstitialConfig);
 
-  this.admob.interstitial.prepare().then(() => {
-      // success
-    }); 
-  }
+//   this.admob.interstitial.prepare().then(() => {
+//       // success
+//     }); 
+//   }
 }
